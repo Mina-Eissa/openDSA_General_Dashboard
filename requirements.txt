@@ -1,5 +1,27 @@
-pip install:
-            "django"
-            "djangorestframework"
-            "mysqlclient"
-            
+Back-End:
+    django
+    djangorestframework
+
+
+front-end:
+    - react
+    - react dom
+    - webpack
+    - webpack-cli
+    - @babel/core: "Babel is a popular JavaScript compiler that converts modern JavaScript code (ES6+) into backward-compatible versions,
+     ensuring compatibility with older browsers and environments."
+    - babel-loader: "is a webpack loader that integrates Babel with the webpack build process.
+     It allows you to transpile JavaScript files using Babel during the webpack build. "
+    - @babel/preset-env: "is a preset that helps Babel determine the transformations required based on the target environments specified in the project configuration." 
+    - @babel/preset-react: "is a preset specifically designed for transpiling React code.(JSX)"
+    - @babel/plugin-proposal-class-properties: "is a Babel plugin that enables support for class properties in JavaScript."
+    - react-router-dom: "is a popular library in the React ecosystem that provides routing capabilities for building single-page applications." 
+
+
+
+
+to run project:
+    1- open first terminal and make sure that you in dashboard dir that contains manage.py file and
+       type "python manage.py runserver"
+    2- open second terminal and make sure that you in frontend dir that contains package.json file and
+       type "npm run dev"
