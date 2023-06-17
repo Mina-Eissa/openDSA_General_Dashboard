@@ -40,6 +40,10 @@ INSTALLED_APPS = [
     'rest_framework',
     'api.apps.ApiConfig',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    'frontend.apps.FrontendConfig',
+>>>>>>> f9dcd0e1e1c6519ac1d6021e8dfb436b016f1b9b
 =======
     'frontend.apps.FrontendConfig',
 >>>>>>> f9dcd0e1e1c6519ac1d6021e8dfb436b016f1b9b
