@@ -1,3 +1,12 @@
 from django.db import models
-
-# Create your models here.
+from .table_models.instructor import Instructor
+from .table_models.student import Student
+from .table_models.book import Book
+from .table_models.chapter import Chapter
+from .table_models.section import Section
+from .table_models.exercise import Exercise
+from .table_models.instructor_book import InstructorBook
+from .table_models.student_book import StudentBook
+from .table_models.student_chapter import StudentChapter
+from .table_models.student_section import StudentSection
+from .table_models.student_exercise import StudentExercise
